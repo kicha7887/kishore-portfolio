@@ -28,12 +28,12 @@ export default function App() {
 
   const projects = [
     {
-      id: 1, icon: "🧠", title: "SentimentScope", category: "NLP / Deep Learning",
-      desc: "Real-time sentiment analysis engine for social media streams using transformer models.",
-      fullDesc: "SentimentScope is a production-ready NLP pipeline that processes Twitter/Reddit streams in real-time, classifying sentiment with 94.2% accuracy using a fine-tuned BERT model. Features include multi-language support, emotion classification (7 categories), and an interactive Streamlit dashboard.",
-      tech: ["Python", "BERT", "Transformers", "Streamlit", "Redis", "Docker"],
-      features: ["Real-time stream processing (5000 tweets/min)", "94.2% accuracy on benchmark datasets", "7-emotion classification system", "Interactive visualization dashboard", "REST API with FastAPI"],
-      github: "https://github.com/kishorkumar/sentimentscope", demo: "https://sentimentscope.streamlit.app",
+      id: 1, icon: "🤖", title: "AI ATS Suite", category: "Resume Intelligence Platform",
+      desc: "AI-powered resume analyzer that optimizes resumes for ATS compatibility and job matching.",
+      fullDesc: "The project improves employment opportunities by helping job seekers create ATS-compliant resumes and better align their skills with industry requirements, supporting career growth and decent work opportunities.",
+      tech: ["Python", "NLTK", "Scikit-Learn", "Streamlit", "PyPDF2", "Plotly", "PDFMiner"],
+      features: ["ATS compatibility score analysis", "AI-powered resume & JD matching", "Missing keyword detection", "Resume ranking and feedback system", "Professional resume builder"],
+      github: "https://github.com/kicha7887/AI-Based_ATS_Resume_Filter", demo: "https://ai-based-ats-resume-filter.onrender.com/",
     },
     {
       id: 2, icon: "👁️", title: "VisionNet", category: "Computer Vision",

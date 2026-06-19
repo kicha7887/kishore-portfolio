@@ -75,14 +75,6 @@ export default function App() {
       features: ["30-day advance prediction", "91% precision on test set", "Customer risk scoring", "Intervention recommendation engine", "ROI calculator dashboard"],
       github: "https://github.com/kishorkumar/churnguard", demo: "https://churnguard.streamlit.app",
     },
-    {
-      id: 6, icon: "🛡️", title: "ChurnGuard", category: "Predictive Analytics",
-      desc: "Customer churn prediction system with 91% precision for telecom industry.",
-      fullDesc: "ChurnGuard predicts customer churn 30 days in advance using a gradient boosting ensemble, enabling proactive retention strategies. Deployed for a simulated telecom dataset of 100K customers, achieving 91% precision and $2.3M simulated annual savings.",
-      tech: ["Python", "XGBoost", "LightGBM", "SHAP", "Streamlit", "PostgreSQL"],
-      features: ["30-day advance prediction", "91% precision on test set", "Customer risk scoring", "Intervention recommendation engine", "ROI calculator dashboard"],
-      github: "https://github.com/kishorkumar/churnguard", demo: "https://churnguard.streamlit.app",
-    },
   ];
 
   const skills = [

@@ -35,6 +35,7 @@ export default function App() {
       features: ["ATS compatibility score analysis", "AI-powered resume & JD matching", "Missing keyword detection", "Resume ranking and feedback system", "Professional resume builder"],
       github: "https://github.com/kicha7887/AI-Based_ATS_Resume_Filter", demo: "https://ai-based-ats-resume-filter.onrender.com/",
     },
+    /*
     {
       id: 2, icon: "👁️", title: "VisionNet", category: "Computer Vision",
       desc: "Real-time object detection system built on YOLOv8 with custom-trained models.",
@@ -75,6 +76,7 @@ export default function App() {
       features: ["30-day advance prediction", "91% precision on test set", "Customer risk scoring", "Intervention recommendation engine", "ROI calculator dashboard"],
       github: "https://github.com/kishorkumar/churnguard", demo: "https://churnguard.streamlit.app",
     },
+    */
   ];
 
   const skills = [

@@ -224,7 +224,7 @@ export default function App() {
               {/* CTA Buttons */}
               <div style={{ display: "flex", gap: 14, flexWrap: "wrap", marginBottom: 40 }}>
                 <a
-                  href="#"
+                  href="https://drive.google.com/file/d/1BVlnVeFQGpStoYBb-7YbYC8Zh8tksWt8/view?usp=drive_link"
                   style={{
                     padding: "14px 32px",
                     background: "linear-gradient(135deg, #dc2626, #991b1b)",

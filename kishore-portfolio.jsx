@@ -470,7 +470,7 @@ export default function App() {
 
           <div className="grid-4">
             {[
-              { icon: "🚀", label: "Total Projects", val: 12, suffix: "+", desc: "Production-ready AI systems" },
+              { icon: "🚀", label: "Total Projects", val: 5, suffix: "+", desc: "Production-ready AI systems" },
               { icon: "🏆", label: "Certifications", val: 5, suffix: "", desc: "From Google, IBM, AWS" },
               { icon: "⚡", label: "LeetCode Solved", val: 350, suffix: "+", desc: "Top 15% globally" },
               { icon: "⭐", label: "GitHub Stars", val: 15, suffix: "+", desc: "Across 40+ repositories" },

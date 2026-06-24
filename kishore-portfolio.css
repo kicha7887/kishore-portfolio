@@ -115,6 +115,105 @@
   .grid-2, .grid-3, .grid-4 { grid-template-columns: 1fr; }
   .hero-grid { flex-direction: column !important; }
   .hide-mobile { display: none !important; }
+  
+  .mobile-menu-btn {
+    display: flex !important;
+  }
+  .nav-desktop-links {
+    display: none !important;
+  }
+}
+
+/* Mobile responsive menu styles */
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: #ef4444;
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-left: auto;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: rgba(220, 38, 38, 0.05);
+  border: 1px solid rgba(220, 38, 38, 0.2);
+  transition: all 0.2s;
+}
+
+.mobile-menu-btn:hover {
+  background: rgba(220, 38, 38, 0.15);
+  border-color: rgba(220, 38, 38, 0.4);
+}
+
+.mobile-menu-overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(3, 3, 3, 0.95);
+  backdrop-filter: blur(25px);
+  -webkit-backdrop-filter: blur(25px);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.2s ease-out;
+}
+
+.mobile-menu-content {
+  width: 85%;
+  max-width: 320px;
+  padding: 40px 24px 32px 24px;
+  border-radius: 24px;
+  text-align: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  animation: slideUp 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.mobile-menu-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  background: rgba(220, 38, 38, 0.15);
+  border: 1px solid rgba(220, 38, 38, 0.3);
+  color: #ef4444;
+  font-size: 0.95rem;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.2s;
+}
+
+.mobile-menu-close:hover {
+  background: rgba(220, 38, 38, 0.25);
+  border-color: rgba(220, 38, 38, 0.5);
+}
+
+.mobile-nav-link {
+  background: none;
+  border: none;
+  color: #9ca3af;
+  cursor: pointer;
+  font-size: 0.95rem;
+  font-weight: 600;
+  padding: 12px 20px;
+  border-radius: 12px;
+  transition: all 0.2s;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.mobile-nav-link:hover, .mobile-nav-link.active {
+  color: #ef4444;
+  background: rgba(220, 38, 38, 0.1);
 }
 
 .tag {

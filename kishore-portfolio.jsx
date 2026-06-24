@@ -388,8 +388,8 @@ export default function App() {
                   {/* Mini stats */}
                   <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr 1fr", gap: 12, marginBottom: 20 }}>
                     {[
-                      { label: "Projects", val: "12+" },
-                      { label: "Certs", val: "5" },
+                      { label: "Projects", val: "5+" },
+                      { label: "Certifications", val: "5" },
                       { label: "LeetCode", val: "350+" },
                     ].map((s) => (
                       <div

@@ -35,15 +35,16 @@ export default function App() {
       features: ["ATS compatibility score analysis", "AI-powered resume & JD matching", "Missing keyword detection", "Resume ranking and feedback system", "Professional resume builder"],
       github: "https://github.com/kicha7887/AI-Based_ATS_Resume_Filter", demo: "https://ai-based-ats-resume-filter.onrender.com/",
     },
-    /*
+    
     {
-      id: 2, icon: "👁️", title: "VisionNet", category: "Computer Vision",
-      desc: "Real-time object detection system built on YOLOv8 with custom-trained models.",
-      fullDesc: "VisionNet is a high-performance computer vision system that achieves 45 FPS real-time inference using a custom-trained YOLOv8 model. Trained on a dataset of 50,000+ images for industrial defect detection, achieving mAP@0.5 of 0.89.",
-      tech: ["Python", "YOLOv8", "OpenCV", "PyTorch", "CUDA", "FastAPI"],
-      features: ["45 FPS real-time inference", "Custom dataset of 50K+ images", "mAP@0.5 of 0.89", "REST API endpoint", "Multi-camera stream support"],
-      github: "https://github.com/kishorkumar/visionnet", demo: null,
+      id: 2, icon: "👁️", title: "AI-Based Phishing Website Detector", category: "Cybersecurity | Machine Learning",
+      desc: "AI-powered phishing website detector using machine learning, WHOIS, and SSL threat analysis.",
+      fullDesc: "AI-Based Phishing Website Detector is an intelligent cybersecurity platform that detects phishing websites using machine learning, URL intelligence, WHOIS analysis, and SSL verification in real time.",
+      tech: ["Python", "Scikit-Learn", "XGBoost", "Random Forest", "Streamlit", "SQLite"],
+      features: ["Real-time phishing URL detection", "WHOIS & SSL certificate analysis", "Random Forest & XGBoost models", "Explainable AI threat scoring", "Interactive Streamlit dashboard"],
+      github: "https://github.com/kicha7887/Phishing-URL-Detector", demo: "https://phishingwebsitechecker.streamlit.app/",
     },
+    /*
     {
       id: 3, icon: "📊", title: "PredictIQ", category: "ML Platform",
       desc: "AutoML prediction platform that democratizes machine learning for non-technical users.",

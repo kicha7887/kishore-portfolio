@@ -35,7 +35,7 @@ export default function App() {
       features: ["ATS compatibility score analysis", "AI-powered resume & JD matching", "Missing keyword detection", "Resume ranking and feedback system", "Professional resume builder"],
       github: "https://github.com/kicha7887/AI-Based_ATS_Resume_Filter", demo: "https://ai-based-ats-resume-filter.onrender.com/",
     },
-    
+
     {
       id: 2, icon: "👁️", title: "AI-Based Phishing Website Detector", category: "Cybersecurity | Machine Learning",
       desc: "AI-powered phishing website detector using machine learning, WHOIS, and SSL threat analysis.",
@@ -44,15 +44,44 @@ export default function App() {
       features: ["Real-time phishing URL detection", "WHOIS & SSL certificate analysis", "Random Forest & XGBoost models", "Explainable AI threat scoring", "Interactive Streamlit dashboard"],
       github: "https://github.com/kicha7887/Phishing-URL-Detector", demo: "https://phishingwebsitechecker.streamlit.app/",
     },
-    /*
+
     {
-      id: 3, icon: "📊", title: "PredictIQ", category: "ML Platform",
-      desc: "AutoML prediction platform that democratizes machine learning for non-technical users.",
-      fullDesc: "PredictIQ is an end-to-end AutoML platform that automatically selects, trains, and deploys the best ML model for tabular datasets. Users upload CSV files and get predictions with explanations powered by SHAP values within minutes.",
-      tech: ["Python", "Scikit-learn", "XGBoost", "SHAP", "Streamlit", "AWS S3"],
-      features: ["Automatic model selection (20+ algorithms)", "SHAP-based explainability", "One-click deployment", "CSV/Excel data upload", "Model comparison reports"],
-      github: "https://github.com/kishorkumar/predictiq", demo: "https://predictiq.streamlit.app",
+      id: 3,
+      icon: "🛡️",
+      title: "ML basedMalware-Classifier",
+      category: "Cybersecurity",
+      desc: "AI-powered malware detection platform that identifies malicious files using machine learning.",
+      fullDesc: "Malware-Classifier is an AI-powered malware detection platform that analyzes executable files and classifies them as benign or malicious in real time.",
+      tech: ["Python", "FastAPI", "React.js", "Scikit-learn", "JWT", "Tailwind CSS"],
+      features: ["Real-time malware detection", "95%+ detection accuracy", "Secure JWT authentication", "REST API integration", "Interactive analysis dashboard"],
+      github: "https://github.com/kicha7887/malware-classifier",
+      demo: "https://malware-classifier-24jxf7ken-kishore-kumars-projects-b4e42267.vercel.app/",
     },
+    {
+      id: 4,
+      icon: "⚡",
+      title: "PDF Reader AI",
+      category: "Generative AI",
+      desc: "AI-powered document question answering system with semantic search and OpenAI fallback.",
+      fullDesc: "PDFReader AI is an intelligent document Q&A platform that lets users upload PDFs, perform semantic search, and receive AI-powered answers with OpenAI fallback.",
+      tech: ["Python", "FastAPI", "OpenAI API", "ChromaDB", "Streamlit", "FAISS"],
+      features: ["Multi-PDF processing", "AI semantic search", "OpenAI fallback", "Source citations", "FastAPI backend"],
+      github: "https://github.com/kicha7887/GENai_prjt/tree/main",
+      demo: null,
+    },
+    {
+      id: 5,
+      icon: "⏱️",
+      title: "Focus Sense",
+      category: "Productivity",
+      desc: "Cross-platform Pomodoro productivity app with distraction tracking and AI-powered focus insights.",
+      fullDesc: "FocusSense is a cross-platform Pomodoro app that helps users improve productivity through customizable focus sessions, distraction tracking, and AI-powered productivity insights.",
+      tech: ["React.js", "TypeScript", "Vite", "Tailwind CSS", "Capacitor", "SQLite"],
+      features: ["Pomodoro timer", "Distraction tracking", "Session history", "AI focus insights", "Cross-platform support"],
+      github: "https://github.com/kicha7887/focus-sense",
+      demo: null,
+    },
+    /*
     {
       id: 4, icon: "📈", title: "DataMind", category: "Business Intelligence",
       desc: "Executive-grade Power BI dashboard suite for retail and e-commerce analytics.",
